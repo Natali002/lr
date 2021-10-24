@@ -1,0 +1,53 @@
+.parent {
+    display: grid;
+    grid-template-columns: 0.3fr 0.2fr 0.1fr 0.3fr;
+    grid-template-rows: 0.7fr 0.5fr repeat(2, 1.3fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    }
+.block{
+    max-width: 1900px;
+    max-height: 1012px; 
+} 
+    .div1 { grid-area: 1 / 1 / 3 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; }
+    .div3 { grid-area: 1 / 4 / 2 / 5; }
+    .div4 { grid-area: 2 / 2 / 3 / 3;}
+    .div5 { grid-area: 2 / 3 / 3 / 4;}
+    .div6 { grid-area: 2 / 4 / 3 / 5; }
+    .div7 { grid-area: 3 / 1 / 4 / 2; }
+    .div8 { grid-area: 3 / 2 / 4 / 3; }
+    .div9 { grid-area: 3 / 3 / 4 / 4;}
+    .div10 { grid-area: 3 / 4 / 4 / 5;}
+    .div11 { grid-area: 4 / 1 / 5 / 2;}
+    .div12 { grid-area: 4 / 2 / 5 / 5;}
+    .parent div{
+        border: 1px solid#5F9EA0;  
+    }
+.title {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Rampart One', cursive;
+}
+.title1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Rampart One', cursive;
+}
+.title2 {
+    font-size: 35px;
+    color: rgb(77, 0, 32);;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    margin: 5px 5px 5px 5px;
+}
+.styl{
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin: 5px 5px 5px 5px;
+}
+
